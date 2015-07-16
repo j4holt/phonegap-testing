@@ -1,0 +1,45 @@
+body {
+	margin-top:10px;
+	font-family: 'Open Sans', 'Arial', arial, sans-serif;
+	font-size: 1em;
+}
+h1, h2, h3, h4 {
+	font-family: 'PT Serif', times, serif;
+}
+/*** UI ***/
+/* Bar: Toolbars, dividers, slider track */
+.ui-bar-a,
+.ui-page-theme-a .ui-bar-inherit,
+html .ui-bar-a .ui-bar-inherit,
+html .ui-body-a .ui-bar-inherit,
+html body .ui-group-theme-a .ui-bar-inherit {
+	background-color: rgb(15,117,189);
+	text-shadow: 0 1px 0 #333;
+
+	color: white;
+}
+/* Button up */
+.ui-page-theme-a .ui-btn,
+html .ui-bar-a .ui-btn,
+html .ui-body-a .ui-btn,
+html body .ui-group-theme-a .ui-btn,
+html head + body .ui-btn.ui-btn-a,
+/* Button visited */
+.ui-page-theme-a .ui-btn:visited,
+html .ui-bar-a .ui-btn:visited,
+html .ui-body-a .ui-btn:visited,
+html body .ui-group-theme-a .ui-btn:visited,
+html head + body .ui-btn.ui-btn-a:visited {
+	background-color: rgb(15,117,189);
+	text-shadow: 0 1px 0 #333;
+	color: white;
+}
+/* Button down */
+.ui-page-theme-a .ui-btn:active,
+html .ui-bar-a .ui-btn:active,
+html .ui-body-a .ui-btn:active,
+html body .ui-group-theme-a .ui-btn:active,
+html head + body .ui-btn.ui-btn-a:active {
+	background-color: 			rgb(178,215,243);
+}
+/*** Login ***/
